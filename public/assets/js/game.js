@@ -17,8 +17,6 @@ function game(sec)  {
 
 if(window.location.href.indexOf('game?id=1') > -1) {
     game(240);
-    //game(3);
 }else if(window.location.href.indexOf('game?id=2') > -1) {
     game(210);
-    //game(3);
 }

@@ -14,5 +14,6 @@ class ViewIndex
     public static function getContent()
     {
         require_once __DIR__ . "/index.php";
+        FooterIndex::getIndexGame();
     }
 }

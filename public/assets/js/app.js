@@ -337,6 +337,5 @@ countdown();
 
 if(window.location.href.indexOf('page=2') > -1) {
     checkIfTimeIsEnough(240);
-    //checkIfTimeIsEnough(3);
     setStatusBtnDisability(document.getElementById('btn-preview-panel-avatars'), true);
 }
