@@ -15,15 +15,14 @@
     <?php
         //<!-- Run the game code -->
         if(strpos($_SERVER['REQUEST_URI'], 'page=2') > -1){ // Page with avatars
-            echo '<script type="text/javascript" src="games/vimuki_unterstuetzer/Prequel-Unterstuetzer.js?GNBAC=1763847289"></script>';
+            echo '<script type="text/javascript" src="games/vimuki_unterstuetzer/Prequel-Unterstuetzer.js?JKMAC=1548144567"></script>';
         }elseif(strpos($_SERVER['REQUEST_URI'], 'game') > -1){ // Page with game
             $tmp = explode('?', $_SERVER['REQUEST_URI']);
             $idGameArray = explode('=', $tmp[1]);
             if($idGameArray[1] === '1') { // Page Game 1
-                echo '<script type="text/javascript" src="games/vimuki_unterstuetzer/Prequel-Unterstuetzer.js?GNBAC=1763847289"></script>';
+                echo '<script type="text/javascript" src="games/vimuki_unterstuetzer/Prequel-Unterstuetzer.js?JKMAC=1548144567"></script>';
             }elseif($idGameArray[1] === '2') { // Page Game 2
-                echo '<script type="text/javascript" src="games/vimuki_koffer/Prequel-Kofferpacken.js?IDQZB=1959083118"></script>';
-
+                echo '<script type="text/javascript" src="games/vimuki_koffer/Prequel-Kofferpacken.js?SXSAC=386374613"></script>';
             }
         }
     ?>

@@ -53,7 +53,7 @@ body  {
     padding-top: 20px;
 }
 .main-page-game  {
-    background-color: #FFD000;
+    background-color: #000000;
     border-top: 3px solid #000000;
     padding-bottom: 50px;
     padding-top: 20px;
@@ -420,17 +420,17 @@ body  {
 /* E N D  M O D A L B O X  A V A T A R S */
 /* S T A R T  M O D A L B O X  G A M E */
 .modal-game {
+    background-color: #000000;
     position: fixed;
     z-index: 1;
+    bottom: 0;
     left: 0;
+    right: 0;
     top: 0;
     overflow: auto;
-    background-color: rgb(0,0,0);
-    background-color: rgba(0,0,0,0.4);
 }
 .modal-game-content {
-    background-color: #000000;
-    border: 1px solid #888;
+
 }
 /* E N D  M O D A L B O X  G A M E */
 .main-not-found  {

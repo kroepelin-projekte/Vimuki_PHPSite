@@ -15,14 +15,16 @@ class Controller extends AbstractController
 {
     public function indexAction()
     {
-        $this->getView();
+        $explodedUrl = explode('=', $_SERVER['REQUEST_URI']);
+        $idGame = $explodedUrl[1];
+        $this->getView($idGame);
     }
 
     /**
      * Get content of view
      */
-    private function getView()
+    private function getView(int $idGame)
     {
-        ViewIndex::getContent();
+        ViewIndex::getContent($idGame);
     }
 }

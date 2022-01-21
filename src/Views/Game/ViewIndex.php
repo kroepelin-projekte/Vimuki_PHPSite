@@ -3,7 +3,6 @@
 namespace vimuki\Views\Game;
 
 use vimuki\Footer\FooterIndex;
-use vimuki\Header\HeaderIndex;
 
 /**
  * Class ViewIndex
@@ -11,9 +10,13 @@ use vimuki\Header\HeaderIndex;
  */
 class ViewIndex
 {
-    public static function getContent()
+    public static function getContent(int $idGame)
     {
-        require_once __DIR__ . "/index.php";
+        if($idGame === 1) {
+            require_once __DIR__ . "/index-game-1.php";
+        }else if($idGame === 2){
+            require_once __DIR__ . "/index-game-2.php";
+        }
         FooterIndex::getIndexGame();
     }
 }
