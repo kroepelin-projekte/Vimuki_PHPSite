@@ -22,7 +22,7 @@
             if($idGameArray[1] === '1') { // Page Game 1
                 echo '<script type="text/javascript" src="games/vimuki_unterstuetzer/Prequel-Unterstuetzer.js?JKMAC=1548144567"></script>';
             }elseif($idGameArray[1] === '2') { // Page Game 2
-                echo '<script type="text/javascript" src="games/vimuki_koffer/Prequel-Kofferpacken.js?SXSAC=386374613"></script>';
+                echo '<script type="text/javascript" src="games/vimuki_koffer/Prequel-Kofferpacken.js?GCCZB=977148281"></script>';
             }
         }
     ?>
