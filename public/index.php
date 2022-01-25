@@ -8,8 +8,6 @@ use vimuki\Footer\FooterIndex;
 require __DIR__ . "/config.php";
 
 HeadIndex::getIndex();
-/*HeaderIndex::getIndex();*/
 new Init();
-/*FooterIndex::getIndex();*/
 
 
